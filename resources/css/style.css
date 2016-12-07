@@ -17,6 +17,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* ----------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------- */
@@ -247,6 +256,9 @@ header {
 /* HOW IT WORKS */
 /* ----------------------------------- */
 
+.section-steps {
+  background-color: #f4f4f4;
+}
 
 .steps-box:first-child {
   text-align: right;
@@ -289,4 +301,18 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ----------------------------------- */
+/* CITIES WE'RE IN */
+/* ----------------------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
