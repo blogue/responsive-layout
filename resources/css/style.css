@@ -8,13 +8,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial' sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -90,7 +92,6 @@ h2:after {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
-
 }
 
 .box p {
